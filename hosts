@@ -1,5 +1,5 @@
 # Title: Currated List by Cuupa
-# Number of entries: 12
+# Number of entries: 15
 
 # Title: Adware-Hosts by Cuupa
 
@@ -25,3 +25,10 @@
 0.0.0.0 great1waytowsuccess.com
 0.0.0.0 windows8-sys-security-6de4ms-crash-setup-failed-exe-not-load-ch.s3.eu-central-1.amazonaws.com
 0.0.0.0 bigjoynow.com
+
+# Title: Somewhat shady sites
+
+# Added January 19, 2023
+0.0.0.0 testamenttakeoutkill.com
+0.0.0.0 waisheph.com
+0.0.0.0 metahv.xyz
