@@ -1,5 +1,5 @@
 # Title: Currated List by Cuupa
-# Number of entries: 8
+# Number of entries: 12
 
 # Title: Adware-Hosts by Cuupa
 
@@ -11,8 +11,17 @@
 0.0.0.0 cyber-guard.me
 0.0.0.0 supremeadblocker.info
 
+# Title: Referals by Cuupa
+# Description: Sites that just redirect to other sites like scam and porn
+
+# Added January 19, 2023
+0.0.0.0 appropriate-money.com
+0.0.0.0 eu.can-get-some.net
+
 # Title: Scam-Hosts by Cuupa
 
 # Added January 19, 2023
 0.0.0.0 offer.great1waytowsuccess.com
 0.0.0.0 great1waytowsuccess.com
+0.0.0.0 windows8-sys-security-6de4ms-crash-setup-failed-exe-not-load-ch.s3.eu-central-1.amazonaws.com
+0.0.0.0 bigjoynow.com

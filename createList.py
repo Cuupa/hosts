@@ -28,7 +28,6 @@ for file in files:
     host.write('\n')
     with open(file) as current_file:
         for line in current_file:
-            print(line.rstrip())
             host.write(line.rstrip())
             host.write('\n')
 host.close()
