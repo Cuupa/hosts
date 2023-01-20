@@ -1,5 +1,5 @@
 # Title: Currated List by Cuupa
-# Number of entries: 15
+# Number of entries: 16
 
 # Title: Adware-Hosts by Cuupa
 
@@ -18,6 +18,9 @@
 0.0.0.0 appropriate-money.com
 0.0.0.0 eu.can-get-some.net
 
+# Added January 20, 2023
+0.0.0.0 tipsfun.com
+
 # Title: Scam-Hosts by Cuupa
 
 # Added January 19, 2023
@@ -25,6 +28,7 @@
 0.0.0.0 great1waytowsuccess.com
 0.0.0.0 windows8-sys-security-6de4ms-crash-setup-failed-exe-not-load-ch.s3.eu-central-1.amazonaws.com
 0.0.0.0 bigjoynow.com
+
 
 # Title: Somewhat shady sites
 
