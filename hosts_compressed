@@ -1,35 +1,16 @@
-# Title: Currated List by Cuupa
-# Number of entries: 65
-
-# Title: Adware-Hosts by Cuupa
-
-# Added January 19, 2023
 0.0.0.0 vogulprecast.com
 0.0.0.0 ee.vogulprecast.com
 0.0.0.0 popupblockergold.com
 0.0.0.0 lp1s.cyber-guard.me
 0.0.0.0 cyber-guard.me
 0.0.0.0 supremeadblocker.info
-
-# Title: Maleware by Cuupa
-# Description: Sites that will pursuade you to install applications
-
 0.0.0.0 moon-cleaner.com
 0.0.0.0 yourshields24.com
 0.0.0.0 clearing-update.com
 0.0.0.0 upgrade-phone.club
-
-# Title: Referals by Cuupa
-# Description: Sites that just redirect to other sites like scam and porn
-
-# Added January 19, 2023
 0.0.0.0 appropriate-money.com
 0.0.0.0 eu.can-get-some.net
-
-# Added January 20, 2023
 0.0.0.0 tipsfun.com
-
-# Added January 21, 2023
 0.0.0.0 sedonda.com
 0.0.0.0 filter.sedonda.com
 0.0.0.0 user-agent.trafficdecisions.com
@@ -48,8 +29,6 @@
 0.0.0.0 r.srvtrk.com
 0.0.0.0 highercldfrev.com
 0.0.0.0 jaavnacsdw.com
-
-# Added January 22, 2023
 0.0.0.0 reliablefuneralsupply.com
 0.0.0.0 ww2.reliablefuneralsupply.com
 0.0.0.0 toprecodeclub.com
@@ -61,21 +40,13 @@
 0.0.0.0 track.traffic.name
 0.0.0.0 inoradde.com
 0.0.0.0 formarshtompchan.com
-
-# Title: Scam-Hosts by Cuupa
-
-# Added January 19, 2023
 0.0.0.0 offer.great1waytowsuccess.com
 0.0.0.0 great1waytowsuccess.com
 0.0.0.0 windows8-sys-security-6de4ms-crash-setup-failed-exe-not-load-ch.s3.eu-central-1.amazonaws.com
 0.0.0.0 bigjoynow.com
-
-# Added January 21, 2023
 0.0.0.0 mobile-protection.club
 0.0.0.0 e.loyalglimmeringmobile.shop
 0.0.0.0 loyalglimmeringmobile.shop
-
-# Added January 22, 2023
 0.0.0.0 ich-bin-drin.com
 0.0.0.0 moon-cleaner.com
 0.0.0.0 yourshields24.com
@@ -83,15 +54,9 @@
 0.0.0.0 yourbestlandever.com
 0.0.0.0 f.yourbestlandever.com
 0.0.0.0 virtlserv.com
-
-# Title: Somewhat shady sites
-
-# Added January 19, 2023
 0.0.0.0 testamenttakeoutkill.com
 0.0.0.0 waisheph.com
 0.0.0.0 metahv.xyz
-
-# Added January 22, 2023
 0.0.0.0 notifpushnext.com
 0.0.0.0 www1.notifpushnext.com
 0.0.0.0 special-trending-news.com
