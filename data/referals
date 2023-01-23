@@ -1,14 +1,9 @@
 # Title: Referals by Cuupa
 # Description: Sites that just redirect to other sites like scam and porn
 
-# Added January 19, 2023
 0.0.0.0 appropriate-money.com
 0.0.0.0 eu.can-get-some.net
-
-# Added January 20, 2023
 0.0.0.0 tipsfun.com
-
-# Added January 21, 2023
 0.0.0.0 sedonda.com
 0.0.0.0 filter.sedonda.com
 0.0.0.0 user-agent.trafficdecisions.com
@@ -27,8 +22,6 @@
 0.0.0.0 r.srvtrk.com
 0.0.0.0 highercldfrev.com
 0.0.0.0 jaavnacsdw.com
-
-# Added January 22, 2023
 0.0.0.0 reliablefuneralsupply.com
 0.0.0.0 ww2.reliablefuneralsupply.com
 0.0.0.0 toprecodeclub.com 
@@ -40,3 +33,14 @@
 0.0.0.0 track.traffic.name
 0.0.0.0 inoradde.com
 0.0.0.0 formarshtompchan.com
+0.0.0.0 toksearches.xyz
+0.0.0.0 smashapps.net
+0.0.0.0 smashappsearch.com
+0.0.0.0 srchus.xyz.com
+0.0.0.0 srchus.xyz
+0.0.0.0 searchpowerapp.com
+0.0.0.0 searchprivacyplus.com
+0.0.0.0 searchdimension.com
+0.0.0.0 normandoh.com
+0.0.0.0 go.normandoh.com
+0.0.0.0 cipledecline.buzz
