@@ -12,7 +12,7 @@ def collect_files():
         break
     return files
 
-def tld(name):
+def domain_name(name):
     var = name.split('.')[-2]
     if ' ' in var:
         var = var.split(' ')[1]
@@ -32,7 +32,7 @@ def start():
                 else:
                     sorted_content.append(line)
         
-        buffer += ''.join(sorted(sorted_content, key=tld))
+        buffer += ''.join(sorted(sorted_content, key=domain_name))
         f = open(file, 'w')
         f.write(buffer)
         f.close()
