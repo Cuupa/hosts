@@ -6,7 +6,7 @@ This is my personal block list, where I add sketchy hosts I stumble upon. You ar
 # Contribute
 
 ## Missing something
-Feel free to open up an issue with the hostname and the category (like advare or scam) you think fit.
+Feel free to open up an issue with the hostname and the category (like 'malware' or 'scam') you think fit.
 
 ## Your site is blocked
 Please open an issue if you think your site is mistakenly blocked. Please provide the url of your site and a statement why your site should be unblocked.
