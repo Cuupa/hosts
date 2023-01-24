@@ -20,7 +20,7 @@ This list works well with a [PiHole](https://pi-hole.net) as well as [AdAway](ht
 - Navigate to "Adlists"
 - Copy the URL to the hostfile into the "Address" inputfield:
 
- [https://github.com/Cuupa/hosts/hosts](https://github.com/Cuupa/hosts/hosts) or [https://github.com/Cuupa/hosts/hosts_compressed](https://github.com/Cuupa/hosts/hosts_compressed)
+ [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts) or [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed)
 - OPTIONAL: Provide a description
 - Click "Add"
 - Update your gravity list (webinterface or via 'pihole -g')
