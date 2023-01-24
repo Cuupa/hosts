@@ -16,7 +16,6 @@ def domain_name(name):
     var = name.split('.')[-2]
     if ' ' in var:
         var = var.split(' ')[1]
-    print(var)
     return var
 
 def start():
