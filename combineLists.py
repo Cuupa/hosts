@@ -30,7 +30,8 @@ def write(hostfile, files, compressed=False):
     if not compressed:
         host.write('# Title: Currated List by Cuupa\n')
         host.write('# Number of entries: ' + str(number_of_entries) + '\n')
-        host.write('# Last updated: ' + datetime.now().strftime('%Y-%m-%d %H:%M:%S' + '\n'))
+        host.write('# Last updated: ' +
+                   datetime.now().strftime('%Y-%m-%d %H:%M:%S' + '\n'))
 
     for file in files:
         if not compressed:
@@ -58,4 +59,6 @@ def count_entries(files):
 
 
 if __name__ == '__main__':
+    print('combining lists ...')
     start()
+    print('done!')

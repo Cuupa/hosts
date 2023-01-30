@@ -12,11 +12,13 @@ def collect_files():
         break
     return files
 
+
 def domain_name(name):
     var = name.split('.')[-2]
     if ' ' in var:
         var = var.split(' ')[1]
     return var
+
 
 def start():
     files = collect_files()
@@ -27,10 +29,10 @@ def start():
             for line in current_file:
                 if line.isspace() or line.startswith('#'):
                     buffer += line
-                
+
                 else:
                     sorted_content.append(line)
-        
+
         buffer += ''.join(sorted(sorted_content, key=domain_name))
         f = open(file, 'w')
         f.write(buffer)
@@ -38,4 +40,6 @@ def start():
 
 
 if __name__ == '__main__':
+    print('sorting lists ...')
     start()
+    print('done!')
