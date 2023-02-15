@@ -1,12 +1,31 @@
 import argparse
-import subprocess
-import sys
+from knockpy import knockpy
 
-sublist3r_path = "C:\Python311\Lib\site-packages\sublist3r.py"
-cmd = "-d{host}"
 
 def scan_subdomains(hostname):
-    subprocess.call([sys.executable, sublist3r_path, cmd.format(host=hostname), "-o", "temp", "-b", "-v"])
+    print('Scanning for subdomains ...')
+    results = knockpy.Scanning.start(hostname)
+    domains = []
+    for subdomain in results:
+        domains.append(str(subdomain))
+
+    print('Found ' + str(len(domains)) + ' subdomains ...')
+    return domains
+
+
+def save(output_file, domains):
+    file = open(output_file, 'a')
+    file.write('\n'.join(domains))
+    file.flush()
+    file.close()
+
+
+def sort_subdomain(hostname):
+    parts = hostname.split('.')[::-1]
+    if parts[-1] == 'www':
+        return parts[:-1], 1
+    return parts, 0
+
 
 
 if __name__ == '__main__':
@@ -19,6 +38,7 @@ if __name__ == '__main__':
         "-s",
         dest="subdomains",
         default=False,
+        action="store_true",
         help="Include subdomains"
     )
 
@@ -42,6 +62,13 @@ if __name__ == '__main__':
     host_to_add = options["host"]
     output_file = options["output"]
 
+    print('Adding \'' + host_to_add + '\' to ' + '\'' + output_file + '\'')
+
+    domains = []
+
     if include_subdomains:
-        print("include subdomains")
-        scan_subdomains(host_to_add)
+        domains = scan_subdomains(host_to_add)
+
+    domains.append(host_to_add)
+    domains = sorted(domains, key = sort_subdomain)
+    save(output_file, domains)
