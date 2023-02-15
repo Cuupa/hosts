@@ -1,11 +1,12 @@
-import subprocess
-import sys
+import sortLists
+import combineLists
+import removeDuplicates
 
 
 def start():
-    subprocess.call([sys.executable, 'sortLists.py'])
-    subprocess.call([sys.executable, 'combineLists.py'])
-    subprocess.call([sys.executable, 'removeDuplicates.py'])
+    sortLists.start()
+    combineLists.start()
+    removeDuplicates.start()
 
 
 if __name__ == '__main__':
