@@ -3,8 +3,8 @@
 This is inspired by [https://github.com/StevenBlack/hosts](https://github.com/StevenBlack/hosts). You should definitely check him out!
 This is my personal block list, where I add sketchy hosts I stumble upon. You are welcome to use the list as you like
 
-- Last updated: 2023-02-17 15:42:35
-- Number of entries: 288
+- Last updated: {last_updated}
+- Number of entries: {number_of_entries}
 
 # Contribute
 

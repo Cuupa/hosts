@@ -1,4 +1,6 @@
 import argparse
+import os
+import sys
 from knockpy import knockpy
 
 
@@ -7,7 +9,7 @@ def scan_subdomains(hostname):
     results = knockpy.Scanning.start(hostname)
     domains = []
     for subdomain in results:
-        domains.append(str(subdomain))
+        domains.append(str('0.0.0.0 ' + subdomain))
 
     print('Found ' + str(len(domains)) + ' subdomains ...')
     return domains
@@ -16,7 +18,7 @@ def scan_subdomains(hostname):
 def save(output_file, domains):
     file = open(output_file, 'a')
     file.write('\n'.join(domains))
-    file.flush()
+    file.write('\n')
     file.close()
 
 
@@ -27,8 +29,7 @@ def sort_subdomain(hostname):
     return parts, 0
 
 
-
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(
         description="Adds a domain and any found subdomains"
     )
@@ -69,6 +70,20 @@ if __name__ == '__main__':
     if include_subdomains:
         domains = scan_subdomains(host_to_add)
 
-    domains.append(host_to_add)
+    domains.append('0.0.0.0 ' + host_to_add)
     domains = sorted(domains, key = sort_subdomain)
     save(output_file, domains)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+
+    except KeyboardInterrupt:
+        print("\nInterrupted")
+        try:
+            sys.exit(0)
+        except SystemExit:
+            os._exit(0)
+
+
