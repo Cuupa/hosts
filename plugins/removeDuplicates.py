@@ -1,6 +1,7 @@
 from os import walk
 import os
 import collections
+import util as util
 
 
 def start():
@@ -15,9 +16,8 @@ def remove_duplicates(files):
         with open(file) as current_file:
             original_lines = current_file.readlines()
             lines = list(dict.fromkeys(original_lines))
-        f = open(file, 'w')
-        f.writelines(lines)
-        f.close()
+
+        util.write_file(file, lines)
 
         if len(lines) == len(original_lines):
             print('No duplicates in ' + str(file))

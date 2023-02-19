@@ -1,6 +1,7 @@
 
 from os import walk
 import os
+import util as util
 
 
 def collect_files():
@@ -34,9 +35,7 @@ def start():
                     sorted_content.append(line)
 
         buffer += ''.join(sorted(sorted_content, key=domain_name))
-        f = open(file, 'w')
-        f.write(buffer)
-        f.close()
+        util.write_file(file, buffer)
 
 
 if __name__ == '__main__':
