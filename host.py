@@ -67,11 +67,19 @@ def main():
         help="Output file"
     )
 
+    parser.add_argument(
+        "--list",
+        "-l",
+        dest="list",
+        help="List of hosts to be added"
+    )
+
     options = vars(parser.parse_args())
     include_subdomains = options["subdomains"]
     host_to_add = options["add-host"]
     host_to_remove = options["remove-host"]
     output_file = options["output"]
+
 
     if host_to_add:
         add_host(host_to_add, output_file, include_subdomains)
