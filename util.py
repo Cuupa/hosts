@@ -18,6 +18,7 @@ def read_file(file):
 def write_file(file, content):
     f = open(file, 'w')
     f.write(''.join(content))
+    f.flush()
     f.close()
 
 
@@ -25,6 +26,7 @@ def append_file(file, content):
     f = open(file, 'a')
     f.write('\n'.join(content))
     f.write('\n')
+    f.flush()
     f.close()
 
 def scan_subdomains(hostname):
