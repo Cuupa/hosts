@@ -1,5 +1,3 @@
-from knockpy import knockpy
-
 
 def sort_subdomain(hostname):
     parts = hostname.split('.')[::-1]
@@ -31,6 +29,7 @@ def append_file(file, content):
 
 def scan_subdomains(hostname):
     try:
+        from knockpy import knockpy
         print('Scanning for subdomains ...')
         results = knockpy.Scanning.start(hostname)
         domains = []
