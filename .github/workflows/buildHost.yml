@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup python
         uses: actions/setup-python@v4
@@ -27,4 +27,5 @@ jobs:
           git config --global user.email "user email"
 
           git add -A
+          git commit -m "programmatically updated hostfiles"
           git push
