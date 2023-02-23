@@ -12,4 +12,4 @@ assignees: ''
  - ...
 
 # Category
-Which category do you think seem fit
+Which category do you think seem fit?
