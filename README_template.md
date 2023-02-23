@@ -6,6 +6,8 @@ This is my personal block list, where I add sketchy hosts I stumble upon. You ar
 - Last updated: {last_updated}
 - Number of entries: {number_of_entries}
 
+I'm distributing a "verbose" list with line comments, a minified version without comments and a compressed version with several entries in one line. It seems like windows could run into an performance issue if you use the first two versions, whereas my PiHole seems happy about the "bloated" verbose one.
+
 # Contribute
 
 ## Missing something
@@ -27,7 +29,8 @@ You can either use the [combined list](https://raw.githubusercontent.com/Cuupa/h
 - Navigate to "Adlists"
 - Copy the URL to the hostfile into the "Address" inputfield:
 
- [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts) or [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed)
+ [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts),
+ [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_minfied](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_minified) or [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed)
 - OPTIONAL: Provide a description
 - Click "Add"
 - Update your gravity list (webinterface or via 'pihole -g')
