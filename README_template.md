@@ -11,10 +11,10 @@ I'm distributing a "verbose" list with line comments, a minified version without
 # Contribute
 
 ## Missing something
-Feel free to open up an issue with the hostname and the category (like 'malware' or 'scam') you think fit.
+Feel free to open up an [issue](https://github.com/Cuupa/hosts/issues/new?template=add-host.md&title=Add+new+host) with the hostname and the category (like 'malware' or 'scam') you think fit.
 
 ## Your site is blocked
-Please open an issue, if you think your site is mistakenly blocked. Please provide the url of your site and a statement why your site should be unblocked.
+Please open an [issue]https://github.com/Cuupa/hosts/issues/new?template=unblock-host.md&title=Unblock+host, if you think a site is mistakenly blocked. Please provide the url(s) and please add a statement why your site should be unblocked.
 
 # Usage
 
