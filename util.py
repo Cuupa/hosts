@@ -30,11 +30,14 @@ def append_file(file, content):
     f.close()
 
 def scan_subdomains(hostname):
-    print('Scanning for subdomains ...')
-    results = knockpy.Scanning.start(hostname)
-    domains = []
-    for subdomain in results:
-        domains.append(str('0.0.0.0 ' + subdomain))
+    try:
+        print('Scanning for subdomains ...')
+        results = knockpy.Scanning.start(hostname)
+        domains = []
+        for subdomain in results:
+            domains.append(str('0.0.0.0 ' + subdomain))
 
-    print('Found ' + str(len(domains)) + ' subdomains ...')
-    return domains
+        print('Found ' + str(len(domains)) + ' subdomains ...')
+        return domains
+    except ImportError:
+        return []
