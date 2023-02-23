@@ -3,9 +3,8 @@ on:
   push:
     paths:
       - 'data/**'
-
-branches:
-- main
+    branches:
+      - main
 
 jobs:
   build:
