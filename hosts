@@ -1,6 +1,6 @@
 # Title: Currated List by Cuupa
-# Number of entries: 313
-# Last updated: 2023-02-24 14:54:54
+# Number of entries: 314
+# Last updated: 2023-02-25 11:29:53
 
 # Title: Malware by Cuupa
 # Description: Sites that will pursuade you to install applications
@@ -278,6 +278,12 @@
 0.0.0.0 ingest.sentry.io
 0.0.0.0 o209266.ingest.sentry.io
 0.0.0.0 simplewebanalysis.com
+
+# Title: Samsung
+# Description: Privacy filter for e.g. samsung tvs
+
+
+0.0.0.0 osb-v2.samsungqbe.com
 
 # Title: Adware by Cuupa
 # Description: Sites that want to show ads per notification
