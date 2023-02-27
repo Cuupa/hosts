@@ -1,0 +1,4 @@
+# Title: Ikea
+# Description: Host file for blocking analytics from ikea dirigera hub
+
+0.0.0.0 api.analytics.homesmart.ikea.com
