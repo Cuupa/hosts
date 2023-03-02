@@ -1,0 +1,13 @@
+# Title: Command and control
+# Description: known command and control-server for malware. They seems to run an XML-RPC-Server
+
+0.0.0.0 picheakhar.ir
+0.0.0.0 carfluidfinder.com
+0.0.0.0 blog.maltebauer.de
+0.0.0.0 ultraaddons.com
+0.0.0.0 amelia.itec.ee
+0.0.0.0 mytaboo.net
+0.0.0.0 recfaces.com
+0.0.0.0 hlt.pl
+0.0.0.0 akschap.com
+0.0.0.0 israelwithstyle.com
