@@ -1,6 +1,6 @@
 # Title: Currated List by Cuupa
-# Number of entries: 384
-# Last updated: 2023-02-27 19:32:20
+# Number of entries: 392
+# Last updated: 2023-03-02 22:19:02
 
 # Title: Malware by Cuupa
 # Description: Sites that will pursuade you to install applications
@@ -44,6 +44,19 @@
 0.0.0.0 wowowcleaner.com
 0.0.0.0 yourshields24.com
 
+# Title: Command and control
+# Description: known command and control-server for malware. They seems to run an XML-RPC-Server
+
+0.0.0.0 akschap.com
+0.0.0.0 carfluidfinder.com
+0.0.0.0 hlt.pl
+0.0.0.0 israelwithstyle.com0.0.0.0 amelia.itec.ee
+0.0.0.0 blog.maltebauer.de
+0.0.0.0 mytaboo.net
+0.0.0.0 picheakhar.ir
+0.0.0.0 recfaces.com
+0.0.0.0 ultraaddons.com
+
 # Title: Scam-Hosts by Cuupa
 
 0.0.0.0 windows8-sys-security-6de4ms-crash-setup-failed-exe-not-load-ch.s3.eu-central-1.amazonaws.com
@@ -67,6 +80,7 @@
 0.0.0.0 pythonsource.tech
 0.0.0.0 rubninevote.live
 0.0.0.0 2211.rubninevote.live
+0.0.0.0 telegrma.org
 0.0.0.0 telelion.site
 0.0.0.0 topicbonus.com
 0.0.0.0 djnl.topicbonus.com
@@ -109,7 +123,6 @@
 0.0.0.0 blocatin.tk
 0.0.0.0 btpnative.com
 0.0.0.0 eu.can-get-some.net
-0.0.0.0 cealbasufba.tk
 0.0.0.0 cealbasufba.tk
 0.0.0.0 cipledecline.buzz
 0.0.0.0 cnnected.org
@@ -197,7 +210,6 @@
 0.0.0.0 smashapps.net
 0.0.0.0 smashappsearch.com
 0.0.0.0 solemnvine.com
-0.0.0.0 spamettabrana.ml
 0.0.0.0 spamettabrana.ml
 0.0.0.0 srchus.xyz
 0.0.0.0 srvtrk.com
