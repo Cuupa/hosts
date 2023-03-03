@@ -34,3 +34,19 @@ You can either use the [combined list](https://raw.githubusercontent.com/Cuupa/h
 - OPTIONAL: Provide a description
 - Click "Add"
 - Update your gravity list (webinterface or via 'pihole -g')
+
+## AdAway
+- Download [AdAway](https://f-droid.org/packages/org.adaway/) from f-droid
+- Click on the bookmark-like icon lefthandside
+- Click the plus icon in the bottom right corner
+- Insert the url to a list of your choice
+
+Hint: I strongly recommend to leave SteveBlack Unified hosts checked!
+
+<img src="https://adaway.org/assets/img/main_screen.jpg" width="150" height="340"/>
+<img src="https://adaway.org/assets/img/host_sources.jpg" width="150" height="340"/>
+
+## Windows
+- Download [https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed](https://raw.githubusercontent.com/Cuupa/hosts/main/hosts_compressed)
+- Rename to ```hosts``` (without any file extensions)
+- Copy file to ```C:\Windows\System32\drivers\etc```. If you did not change the file, just click overwrite. If you did, you need to merge it manually
