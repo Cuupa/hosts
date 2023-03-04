@@ -1,6 +1,6 @@
 # Title: Currated List by Cuupa
-# Number of entries: 393
-# Last updated: 2023-03-03 16:45:07
+# Number of entries: 396
+# Last updated: 2023-03-04 16:34:47
 
 # Title: Malware by Cuupa
 # Description: Sites that will pursuade you to install applications
@@ -80,6 +80,9 @@
 0.0.0.0 pythonsource.tech
 0.0.0.0 rubninevote.live
 0.0.0.0 2211.rubninevote.live
+0.0.0.0 sendgrid.net
+0.0.0.0 ct.sendgrid.net
+0.0.0.0 u26694868.ct.sendgrid.net
 0.0.0.0 telegrma.org
 0.0.0.0 telelion.site
 0.0.0.0 topicbonus.com
