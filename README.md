@@ -3,8 +3,8 @@
 This is inspired by [https://github.com/StevenBlack/hosts](https://github.com/StevenBlack/hosts). You should definitely check him out!
 This is my personal block list, where I add sketchy hosts I stumble upon. You are welcome to use the list as you like.
 
-- Last updated: 2023-03-04 16:34:47
-- Number of entries: 396
+- Last updated: 2023-03-05 00:20:15
+- Number of entries: 423
 
 I'm distributing a "verbose" list with line comments, a minified version without comments and a compressed version with several entries in one line. It seems like windows could run into an performance issue if you use the first two versions, whereas my PiHole seems happy about the "bloated" verbose one.
 
