@@ -1,6 +1,8 @@
 # Title: Adware by Cuupa
 # Description: Sites that want to show ads per notification
 
+0.0.0.0 audulaturazed.com
+0.0.0.0 iowt.audulaturazed.com
 0.0.0.0 captchafair.top
 0.0.0.0 a.captchafair.top
 0.0.0.0 b.captchafair.top
@@ -85,5 +87,3 @@
 0.0.0.0 332.topnewsfeeds.net
 0.0.0.0 333.topnewsfeeds.net
 0.0.0.0 totalrecaptcha.top
-0.0.0.0 audulaturazed.com
-0.0.0.0 iowt.audulaturazed.com
